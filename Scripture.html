@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Melani Gonzalez">
+    <meta name="description" content="portafolio de desarrollo web de Melani Lopez">
+    <meta name="keyword" content="HTML,CSS,JavaScript,React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--titulo-->
+    <title>Melani Gonzalez|Desarrollo Web Front-End</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="imegen1.1.jpg">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link href="stylepf.css" rel="stylesheet">
+    <!--google fonts-->
+    <link reel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-ligth">
+     <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span> 
+        </button>
+<div class="collapse navbar-collapse" id="navbar-toggler">
+    <a class="navbar-brand" href="#">
+        <img src="araña.jpg" width="50" alt="logo de la pagina web">
+    </a>
+    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+       </ul>   
+     </div>
+  </div>
+</nav>
+
+<!--Seccion hero-->
+<section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imegen1.1.jpg" alt="foto Melani Gonzalez">
+        <h1>Hola, soy Melani Gonzalez</h1>
+        <!--<h2>Desarrollo sitios web y escribo articulos sbre programacion.</h2>-->
+
+        <!--Animacion  con JavaScrip-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+    </div>
+    <div class="hero-inferior">
+       <img class="hero-inferior-imagen img-fluid" src="inicial1.2.jpg" alt="Monito, lapto y logos de HTML, CSS, JavaScript y React."> 
+    </div>
+</section>
+
+<!--Sobre Mi-->
+<section id="sobre-mi" class="sobre-mi seccion-oscura"></section>
+    <div class="contenedor">
+       <h2 class="seccion titulo">Conoce a Melani Gonzalez</h2>
+       <p class="seccion-texto">I really like chilaquiles, I like sunsets, I am a sociable person who likes to make new friends, I really like to dress in loose clothes, I really like to go out with my friends to beautiful places, my favorite color is purple and green, Normally I never stay seated at a party I like to dance everything, my favorite singer is ferxxoo and that's it <3</p>
+    </div>
+</section>
+
+<!--Experiencia-->
+<section class="experiencia seccion-clara">
+    <div class="containr text-center">
+      <div class="row">
+        <!--Desarrollo web-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="expriencia-titulo">Desarrollo web</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fingilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-pimary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!--Articulos-->
+        <div class="columna col-12 col-md-4"></div>
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Articulos</p>
+          <p>Lorem ipsum dolor sit amt, consectetur adipiscing elit. Cras laoreet, odio eget frinfilla scelerisque, sem purus fringilla mauris, nec ultricies nils sit amet dolr </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-pimary">Escribir</span>
+            <span class="badge text-bg-pimary">Editar</span>
+            <span class="badge text-bg-pimary">Bolgs</span>
+          </div>
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio egt fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl sit amet dolor. </p>
+            <div class="badges-contenedor">
+                <span class="badge text-bg-pimary">Tecnolochicas</span>
+                <span class="badge text-bg-pimary">Desarrollo Web</span>
+                <span class="badge text-bg-pimary">Python</span>
+            </div>
+        </div>
+     </div>
+    </div>
+</section>
+
+<!-- Proyectos -->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-coumn">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos royectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center royctos-contenedor">
+        <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="Proyecto">
+                <img src="guitarra4.1.jpg" alt="Proyecto 1">
+                <div class="Overlay">
+                    <p>Proyecto 1</p>
+                    <di class="iconos-contenedor">
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </di>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="rosita.jpg" alt="proycto 1">
+                    <div class="Overlay">
+                        <p>Proyecto 2</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                            <a href="#/" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="spoty.jpg" alt="Proyecto 1">
+                  <div class="Overlay">
+                    <p>Proyecto 3</p>
+                    <div class="icnos-contenedor">
+                        <a href="htpps://gitub.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Proyecto 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="felii.jpg" alt="Proyecto 1">
+                    <div class="Overlay">
+                        <p>Proyecto 4</p>
+                        <div class="iconos-contenedor">
+                            <a href="htpps://github.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            <!-- Proyecto 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="morado.jpg" alt="Proyecto 1">
+                    <div class="Overlay">
+                        <p>Proyecto 5</p>
+                        <div class="iconos-contenedor">
+                            <!-- <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> -->
+                               <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- Proyecto 6 -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="hola.jpg" alt="Proyecto 1">
+                    <div class="Overlay">
+                        <p>Proyecto 6</p>
+                        <div class="iconos-contenedor">
+                            <a href="htpps://github.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+            </button>
+         </a>
+</section>
+<!-- Articulos -->
+<section class="articulos ustify-content-start">
+    <h2 class="seccion-titulo texto-negro">Articulos</h2>
+    <div class="card">
+        <div class="card-header">
+            Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+            <a href="htpps://nancynsalazar.medium.com/c%C3%ADa-r%C3%A1pida-para-construir-tu-portafolio-como-programador-a-9f02daeabb12" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Guia rapida para construir tu portafolio como programador(a)
+                </li>
+            </a>
+            <a href="https://nancysalazar.medium.com/c%C3%B3mo-ser-un-a-mejor-programador-a-a749c1bf9890" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Como ser un(a) mejor programador(a)
+                </li>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Python leer arcivo JSON - como carga JSON desde un archivo y procesar dumps
+                </li>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Python com escribir en un archivo - abrir, leer, escribir y otras funciones de archivo explicadas
+                </li>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    ¿Para que se usa Python? 10+ usos del lenguaje de programacion Python
+                </li>
+            </a>
+        </ul>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+            Ver mas articulos
+            <i class="b bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slid" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="gino3.3.jpg" alt="Foto de Gino">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectertur adipisicing elit. Sed vel iaculis urna. Fusce a ornare erim, vel interdum turpis, Sed sliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="nora3.2.jpg" alt="Foto de Nora">
+                            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectertur adipisicing elit. Sed vel iaculis urna. Fusce a ornare erim, vel interdum turpis, Sed sliquam interdum nisi a placerat.</p>
+                            <div class="testimonio-info">
+                                <p class="cliente">Nora</p>
+                                <p class="cargo">Gerente de DiseñaMiPaginaWeb</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="leonardo3.4.jpg" alt="Foto de Leornado">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectertur adipisicing elit. Sed vel iaculis urna. Fusce a ornare erim, vel interdum turpis, Sed sliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Leonardo</p>
+                            <p class="cargo">Director de AprendeAProgramar</p>
+                        </div>
+                      </div>
+                   </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visully-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visully-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <!-- Contacto -->
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justufy-contnt-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                         Hablemos!
+                        </div>
+                        <div class="col-12 col.md-4">
+                            Contactame para iniciar tu proyecto de desarrolloweb y hare que tu vision se vuelva realidad.
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:melani313@gmail.com">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Pie de pagina (footer) -->
+        <footer class="seccion-oscura d-flex flex-colim align-items-center justify-content-center">
+            <img class="footer-logo" src="fexxo.jpg" alt="Logo del portafolio">
+            <P class="Footer-texto text-center">Aprendo y creo todos los dias.<b>Creemos un proyecto juntos.</P>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-cente justufy-content-center">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="mailto:melanilopez313@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-envelope"></i>
+                </a>
+            </div>
+            <div class="derechos-de-autor">Creado por Melani Gonzalez (2022) &#169;</div>
+        </footer>
+
+        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3Y+gxIOqMEjwtxJY7qPCqsd1tbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>
